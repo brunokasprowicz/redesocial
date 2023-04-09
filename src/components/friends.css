@@ -1,0 +1,43 @@
+
+.card-amigo{
+    display: flex;
+    width: 100%;
+    gap: 10px;
+    align-items: center;
+    padding: 10px;
+}
+
+.titulo{
+    text-align: center;
+    padding: 10px;
+    background: 	#4f86fc;
+    color: #fff;
+}
+
+.card-amigo img {
+    width: 80px;
+    height: 80px;
+    border-radius: 600px;
+}
+
+.card-amigo-desc{
+    display: flex;
+    flex-direction: column;
+}
+
+.card-amigo-desc h4{
+    color: steelblue;
+}
+.card-amigo p {
+    font-size: 12px;
+}
+
+.solicitacoes{
+    display: flex;
+    gap: 10px;
+}
+.botao-solicitiacao{
+    background: 	#87CEFA;
+    padding: 5px;
+    border-radius: 5px;
+}
